@@ -801,6 +801,14 @@ config:
     build:
       - work-dir: dx-services/requester-services-dx
         image-name: requester-services-dx
-        dockerfile: build/maven/Dockerfile        
+        dockerfile: build/maven/Dockerfile 
+
+  - name: "builds/municipal-services/garbage-service"
+    build:
+        - work-dir: "garbage-service"
+          image-name: "garbage-service"
+          dockerfile: "build/maven/Dockerfile"
+        - work-dir: "garbage-service/src/main/resources/db"
+          image-name: "garbage-service-db"       
         
    
