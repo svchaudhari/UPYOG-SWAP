@@ -220,9 +220,8 @@ config:
 
   - name: "builds/municipal-services/garbage-service"
     build:
-      - work-dir: "garbage-service"
-        image-name: "municipal-services/garbage-service"
-        dockerfile: "build/maven/Dockerfile"
-      - work-dir: "garbage-service/src/main/resources/db"
-        image-name: "garbage-service-db"       
-        
+        - work-dir: "garbage-service"
+          image-name: "garbage-service"
+          dockerfile: "build/maven/Dockerfile"
+        - work-dir: "garbage-service/src/main/resources/db"
+          image-name: "garbage-service-db"
