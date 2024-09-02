@@ -173,7 +173,6 @@ config:
         image-name: "fsm-db"
 
 
-
   - name: "builds/municipal-services/vehicle"
     build:
       - work-dir: "vehicle"
@@ -200,6 +199,7 @@ config:
         image-name: "fsm-calculator-db"
         
   - name: "builds/digit-impel-builds/municipal-services/turn-io-adapter"
+    build:
       - work-dir: "turn-io-adapter"
         image-name: "turn-io-adapter"
         dockerfile: "build/maven/Dockerfile"
@@ -217,10 +217,12 @@ config:
           dockerfile: "build/maven/Dockerfile"
         - work-dir: "pet-services/src/main/resources/db"
           image-name: "pet-services-db"        
+
   - name: "builds/municipal-services/garbage-service"
     build:
-        - work-dir: "garbage-service"
-          image-name: "garbage-service"
-          dockerfile: "build/maven/Dockerfile"
-        - work-dir: "garbage-service/src/main/resources/db"
-          image-name: "garbage-service-db"
+      - work-dir: "garbage-service"
+        image-name: "municipal-services/garbage-service"
+        dockerfile: "build/maven/Dockerfile"
+      - work-dir: "garbage-service/src/main/resources/db"
+        image-name: "garbage-service-db"       
+        
