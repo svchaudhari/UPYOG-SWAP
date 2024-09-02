@@ -1,0 +1,9 @@
+.DS_Store
+frontend/micro-ui-internals/node_modules/*
+.idea
+index.lock
+/.metadata/
+/.metadata/
+municipal-services/advertisement-canopy-service/.mvn/wrapper/maven-wrapper.properties
+municipal-services/advertisement-canopy-service/mvnw
+municipal-services/advertisement-canopy-service/mvnw.cmd

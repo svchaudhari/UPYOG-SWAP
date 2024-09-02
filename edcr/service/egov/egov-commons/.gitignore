@@ -1,0 +1,7 @@
+/target/
+/bin/
+.project
+.classpath
+.settings/
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.wst.common.component
