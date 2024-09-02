@@ -1,1 +1,0 @@
-ALTER TABLE eg_pg_transactions ADD COLUMN "order_id" VARCHAR NULL
