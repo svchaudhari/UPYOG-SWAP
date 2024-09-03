@@ -10,8 +10,13 @@
   </parent>
   <groupId>org.egov</groupId>
   <artifactId>mdms-client</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <distributionManagement>
+  <repository>
+			<id>repo.digit.org</id>
+			<name>eGov DIGIT Releases Repository</name>
+			<url>https://nexus-repo.digit.org/nexus/content/repositories/snapshots/</url>
+	</repository>
     <repository>
       <id>repo.egovernments.org</id>
       <name>eGov ERP Releases Repository</name>
@@ -22,6 +27,7 @@
       <name>eGov ERP Snapshots Repository</name>
       <url>https://nexus-repo.egovernments.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
+    
   </distributionManagement>
   <properties>
     <log4j2.version>2.17.1</log4j2.version>
@@ -65,7 +71,7 @@
     <dependency>
       <groupId>org.egov.services</groupId>
       <artifactId>services-common</artifactId>
-      <version>0.9.0</version>
+      <version>1.1.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.jayway.jsonpath</groupId>
@@ -90,7 +96,7 @@
     <dependency>
       <groupId>org.egov.services</groupId>
       <artifactId>tracer</artifactId>
-      <version>1.1.4-SNAPSHOT</version>
+      <version>2.1.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <repositories>
@@ -104,6 +110,11 @@
       <name>eGov ERP Releases Repository</name>
       <url>https://nexus-repo.egovernments.org/nexus/content/repositories/releases/</url>
     </repository>
+    		<repository>
+			<id>repo.digit.org</id>
+			<name>eGov DIGIT Releases Repository</name>
+			<url>https://nexus-repo.digit.org/nexus/content/repositories/snapshots/</url>
+	</repository>
   </repositories>
   <build>
     <plugins>
