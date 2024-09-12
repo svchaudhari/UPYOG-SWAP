@@ -15,11 +15,11 @@ config:
       dockerfile: web/rainmaker/docker/citizen/Dockerfile
       image-name: citizen
 
--   name: builds/digit-impel-builds/frontend/employee
+-   name: builds/digit-impel-builds/frontend/hp
     build:
     - work-dir: web/rainmaker/
-      dockerfile: web/rainmaker/docker/employee/Dockerfile
-      image-name: employee
+      dockerfile: web/rainmaker/docker/hp/Dockerfile
+      image-name: hp
 
 -   name: builds/digit-impel-builds/frontend/employee-mcs
     build:

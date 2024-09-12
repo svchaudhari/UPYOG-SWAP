@@ -2,7 +2,7 @@
   "name": "hp-udd",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hpupyog.hp.gov.in/hp-udd",
+  "homepage": "https://hpupyog.hp.gov.in/hp",
   "proxy": "https://hpupyog.hp.gov.in",
   "dependencies": {
     "@babel/core": "^7.24.7",
