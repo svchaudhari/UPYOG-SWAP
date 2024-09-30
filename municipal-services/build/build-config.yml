@@ -224,4 +224,16 @@ config:
           image-name: "garbage-service"
           dockerfile: "build/maven/Dockerfile"
         - work-dir: "garbage-service/src/main/resources/db"
+<<<<<<< HEAD
           image-name: "garbage-service-db"
+=======
+          image-name: "garbage-service-db"
+
+  - name: "builds/municipal-services/advertisement-canopy-service"
+    build:
+      - work-dir: "advertisement-canopy-service"
+        image-name: "advertisement-canopy-service"
+        dockerfile: "build/maven/Dockerfile"
+      - work-dir: "advertisement-canopy-service/src/main/resources/db"
+        image-name: "advertisement-canopy-service-db" 
+>>>>>>> 65df4ffcc162d8b6e3cda150ea8c73bddbeb15b8
