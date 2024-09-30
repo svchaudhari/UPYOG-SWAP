@@ -1,0 +1,63 @@
+{
+  "name": "hp-udd",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://hpupyog.hp.gov.in/hp",
+  "proxy": "https://hpupyog.hp.gov.in",
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@popperjs/core": "^2.11.8",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^4.5.2",
+    "file-saver": "^2.0.5",
+    "flexslider": "^2.7.2",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.3",
+    "moment": "^2.30.1",
+    "popper.js": "^1.16.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.7.0",
+    "razorpay": "^2.9.4",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.2.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "sweetalert": "^2.1.2",
+    "tempusdominus-bootstrap-4": "^5.39.2",
+    "web-vitals": "^2.1.4",
+	"eslint": "^8.0.0",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

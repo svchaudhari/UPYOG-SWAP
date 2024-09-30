@@ -1,0 +1,1 @@
+export { WeightBold } from "./WeightBold";
